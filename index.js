@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();;
-const data = require('./Web/view');
+const data = require('./web/view');
 
 app.get("/",(req,res) => {
     res.send(data);
